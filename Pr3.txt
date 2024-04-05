@@ -1,0 +1,15 @@
+Pr3
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+public class DemoTest {
+	public static void main(String[] args){
+			
+		int a = 10,b=20;
+		System.out.println("Hello World");
+		System.out.println(a+b);
+		WebDriver driver = new FirefoxDriver();
+		driver.get("https://www.youtube.com");
+		driver.manage().window().maximize();
+	}
+}

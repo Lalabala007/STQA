@@ -1,0 +1,21 @@
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class fire {
+    static String driverPath = "E:\\SYCSWORK-SEM4\\STQA\\ST\\geckodriver\\geckodriver-v0.24.0-win32\\geckodriver.exe";
+
+    public static WebDriver driver;
+
+    public static void main(String[] args) {
+        System.setProperty("webdriver.gecko.driver", driverPath);
+        driver = new FirefoxDriver();
+        driver.get("http://facebook.com/zeg/");
+        Select se = new Select(driver.findElement(By.id("month")));
+        java.util.List<WebElement> myList = se.getOptions();
+        int numberOfItems = myList.size();
+        System.out.println("Number of items in the dropdown :" + numberOfItems);
+    }
+}

@@ -1,0 +1,32 @@
+Pr4
+
+TestJUnit
+
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+import org.junit.runner.notification.Failure;
+
+public class abcd {
+   public static void main(String[] args) {
+      Result result = JUnitCore.runClasses(TestJUnit.class);
+      for (Failure failure : result.getFailures()) {
+         System.out.println(failure.toString());
+      }
+      System.out.println("Result=="+result.wasSuccessful());
+   }
+}
+
+TestRunner
+
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
+import org.junit.runner.notification.Failure;
+public class runner {
+	public static void main(String[] args){
+		Result res = JUnitCore.runClasses(unit.class);
+		for(Failure f: res.getFailures()){
+			System.out.println(f.toString());
+		}
+		System.out.println("Result == " + res.wasSuccessful());
+	}
+}
