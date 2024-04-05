@@ -1,0 +1,64 @@
+PRACTICAL NO. 1
+
+Aim:-Install Selenium IDE; Write a test suite containing minimum 4 test cases 
+
+for different formats.
+
+Following are the steps for installing Selenium IDE on Mozilla Firefox.
+
+1. In Firefox, search for https://www.seleniumhq.org/ .
+
+2. Click on ‘ for Firefox ‘ 
+
+3. Click on ‘ +Add to Firefox ’
+
+4. Wait for the download to finish
+
+5. Click on the ‘Se’ icon which is on the Firefox toolbar
+For demo.guru99.com →
+
+Step 1: Open Mozilla Firefox and search for 
+http://demo.guru99.com/test/newtours/. Copy and paste the same URL into 
+Selenium IDE, start recording subsequently.
+
+Step 2: Right click on the web page and cursor over Selenium IDE. Then, select 
+Assert Title from the side bar.
+
+Step 3: Type anything into the user name and password blocks. Click Sign-In 
+after entering.
+
+Step 4: Abreast, you will see the commands in Selenium IDE which you had 
+performed on website.
+
+Step 5: Save your test case with a name followed by the .side extension. 
+Software Testing And Quality Assuarance
+
+Step 6: Go to the Selenium IDE and click onto Run current test then you will 
+see the ‘test case has completed successfully’ in the Log section.
+
+
+For Gmail→
+
+1. Go to www.google.com and search for Gmail.
+
+2. Click on Gmail icon
+
+
+3. Enter some ID and Password 
+
+4. Stop recording and then click on play
+
+
+For Yahoo→
+
+1. Go to www.yahoo.com and start recording. 
+
+2. Perform some actions and then click on play button.
+
+
+For Selenium→
+
+1. Go to https://www.seleniumhq.org and start recording .
+
+2. Perform some actions and then click on play button
+
